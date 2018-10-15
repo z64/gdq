@@ -1,0 +1,13 @@
+name: gdq
+version: 0.1.0
+
+authors:
+  - Zac Nowicki (z64) <zachnowicki@gmail.com>
+
+targets:
+  gdq_json:
+    main: src/gdq_json.cr
+  gdq_csv:
+    main: src/gdq_csv.cr
+
+license: MIT
