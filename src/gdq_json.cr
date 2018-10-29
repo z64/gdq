@@ -22,7 +22,7 @@ struct Run
   getter game : String
   getter platform : String?
   getter category : String
-  getter host : String?
+  getter host : String
 
   @[JSON::Field(converter: Run::TimeConverter)]
   getter time : Time
